@@ -8,15 +8,13 @@ import Footer from './components/Footer';
 
 
 function Rent() {
- 
   return (
     <>
-    <Header/>
-    <CarouselSlider/>
-    <Collections/>
-    <Footer/>
-  </>
-  
+      <Header/>
+      <CarouselSlider/>
+      <Collections/>
+      <Footer/>
+    </>
   )
 }
 
