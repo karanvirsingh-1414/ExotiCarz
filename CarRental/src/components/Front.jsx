@@ -1,4 +1,5 @@
 import React, { useState, useEffect , Component} from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -71,7 +72,7 @@ const AboutSection = () => {
             <p className="p1 text-white">
               With top-tier customer service and a seamless rental process, we ensure that your journey is as thrilling as the destination. Choose Exoticarz and drive your dream car today.
             </p>
-            <a href="about.html" className="main-btn mt-4 ps-3 pe-3">Explore</a>
+            <Link to="/" className="main-btn mt-4 ps-3 pe-3">Explore</Link>
           </div>
           <div className="welcome col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center" data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="800">
             <img src="https://plus.unsplash.com/premium_photo-1661277623135-224e67c9ff81?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500" className="img-fluid" alt="about" />
@@ -229,7 +230,7 @@ const TeamSection = () => {
           {/* 1st Card */}
           <div className="team_card col-lg-3 col-md-6 mb-4">
             <div className="card p-0 rounded-3">
-              <a href="lambo.html"><img src="./images/lambo.jpeg" className="img-fluid rounded-3" alt="Lamborghini" /></a>
+              <Link to="/"><img src="./images/lambo.jpeg" className="img-fluid rounded-3" alt="Lamborghini" /></Link>
               <div className="team-info">
                 <h5>Lamborghini</h5>
                 <ul className="social-network">
@@ -245,7 +246,7 @@ const TeamSection = () => {
           {/* 2nd Card */}
           <div className="team_card col-lg-3 col-md-6 mb-4">
             <div className="card p-0 rounded-3">
-              <a href="maybach_gls.html"><img src="./images/merc.jpeg" className="img-fluid rounded-3" alt="Mercedes" /></a>
+              <Link to="/"><img src="./images/merc.jpeg" className="img-fluid rounded-3" alt="Mercedes" /></Link>
               <div className="team-info">
                 <h5>Mercedes</h5>
                 <ul className="social-network">
@@ -261,7 +262,7 @@ const TeamSection = () => {
           {/* 3rd Card */}
           <div className="team_card col-lg-3 col-md-6 mb-4">
             <div className="card p-0 rounded-3">
-              <a href="audi_r8.html"><img src="./images/audi.jpeg" className="img-fluid rounded-3" alt="Audi" /></a>
+              <Link to="/"><img src="./images/audi.jpeg" className="img-fluid rounded-3" alt="Audi" /></Link>
               <div className="team-info">
                 <h5>Audi</h5>
                 <ul className="social-network">
@@ -277,7 +278,7 @@ const TeamSection = () => {
           {/* 4th Card */}
           <div className="team_card col-lg-3 col-md-6 mb-4">
             <div className="card p-0 rounded-3">
-              <a href="mclaren.html"><img src="./images/mclaren2.jpeg" className="img-fluid rounded-3" alt="McLaren" /></a>
+              <Link to="/"><img src="./images/mclaren2.jpeg" className="img-fluid rounded-3" alt="McLaren" /></Link>
               <div className="team-info">
                 <h5>Mclaren</h5>
                 <ul className="social-network">
@@ -330,7 +331,7 @@ const PicksSection = () => {
                 <p className="about text-center mt-5 ps-2 pe-2">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur, distinctio facere dignissimos quia quas! Facilis laborum sequi eius ullam!
                 </p>
-                <a href="renting.html" className="main-btn d-flex justify-content-center">Book Now</a>
+                <Link to="/rent" className="main-btn d-flex justify-content-center">Book Now</Link>
               </div>
             </div>
           </div>
@@ -349,7 +350,7 @@ const PicksSection = () => {
                 <p className="about text-center mt-5 ps-2 pe-2">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur, distinctio facere dignissimos quia quas! Facilis laborum sequi eius ullam!
                 </p>
-                <a href="renting.html" className="main-btn d-flex justify-content-center">Book Now</a>
+                <Link to="/rent" className="main-btn d-flex justify-content-center">Book Now</Link>
               </div>
             </div>
           </div>
@@ -364,7 +365,7 @@ const PicksSection = () => {
                 <p className="about text-center mt-5 ps-2 pe-2">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur, distinctio facere dignissimos quia quas! Facilis laborum sequi eius ullam!
                 </p>
-                <a href="renting.html" className="main-btn d-flex justify-content-center">Book Now</a>
+                <Link to="/rent" className="main-btn d-flex justify-content-center">Book Now</Link>
               </div>
             </div>
           </div>
@@ -383,7 +384,7 @@ const PicksSection = () => {
                 <p className="about text-center mt-5 ps-2 pe-2">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque consectetur, distinctio facere dignissimos quia quas! Facilis laborum sequi eius ullam!
                 </p>
-                <a href="renting.html" className="main-btn d-flex justify-content-center">Book Now</a>
+                <Link to="/rent" className="main-btn d-flex justify-content-center">Book Now</Link>
               </div>
             </div>
           </div>

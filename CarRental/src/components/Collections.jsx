@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const TogglerSwitch = () => {
@@ -50,11 +51,11 @@ const TogglerSwitch = () => {
                   technology
                 </p>
                 <div className="checkkar">
-                  <a href="/maybach_gls.html">
+                  <Link to="/">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,11 +79,11 @@ const TogglerSwitch = () => {
                   driver's machine.
                 </p>
                 <div className="checkkar">
-                  <a href="/audi_r8.html">
+                  <Link to="/">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,11 +102,11 @@ const TogglerSwitch = () => {
                   advanced technology.
                 </p>
                 <div className="checkkar">
-                  <a href="/bmw.html">
+                  <Link to="/">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -224,11 +225,11 @@ const TogglerSwitch = () => {
                   experience.
                 </p>
                 <div className="checkkar">
-                  <a href="/dodge.html">
+                  <Link to="/">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -291,11 +292,11 @@ const TogglerSwitch = () => {
                     features
                   </p>
                   <div className="checkkar">
-                    <a href="/modelX.html">
+                    <Link to="/">
                       <button className="button-50" role="button">
                         Check Out
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
