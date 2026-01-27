@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 const Header = () =>{
     return(
@@ -47,28 +48,28 @@ const Header = () =>{
                 className="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3"
               >
                 <li className="nav-item mx-2">
-                  <a
+                  <Link
                     className="nav-link"
                     aria-current="page"
-                    href="/landing.html"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link" href="/about.html">
+                  <Link className="nav-link" to="/">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link active" href="/renting.html">
+                  <Link className="nav-link active" to="/rent">
                     Rent
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link" href="/slider.html">
+                  <Link className="nav-link" to="/">
                     Top Picks
-                  </a>
+                  </Link>
                 </li>
                 {/* <li class="nav-item mx-2">
             <a class="nav-link" href="/">Top Brands</a>
@@ -79,18 +80,18 @@ const Header = () =>{
                 id="log_sign"
                 className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2"
               >
-                <a
-                  href="login.html"
+                <Link
+                  to="/"
                   className="login text-decoration-none px-3 py-1 rounded-3"
                 >
                   Login
-                </a>
-                <a
-                  href="#signup"
+                </Link>
+                <Link
+                  to="/"
                   className="signup text-decoration-none px-3 py-1 rounded-3"
                 >
                   Sign Up
-                </a>
+                </Link>
               </div>
             </div>
           </div>
