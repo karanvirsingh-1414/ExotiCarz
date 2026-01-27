@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
@@ -17,29 +18,29 @@ const Footer = () => {
             <h5>Sitemap</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="/landing.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/about.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/renting.html" className="nav-link p-0 ">
+                <Link to="/rent" className="nav-link p-0 ">
                   Rent
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/slider.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Top Picks
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/contact.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -47,29 +48,29 @@ const Footer = () => {
             <h5>Cars</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="/lambo.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Lamborghini
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/maybach_gls.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Maybach
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/mclaren.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   McLaren
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/rolls_royce.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Rolls Royce
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/dodge.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Dodge
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -77,19 +78,19 @@ const Footer = () => {
             <h5>Access</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="/login.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Login
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/login.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Sign Up
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
-                <a href="/frontpage.html" className="nav-link p-0 ">
+                <Link to="/" className="nav-link p-0 ">
                   Start
-                </a>
+                </Link>
               </li>
               <li className="nav-item mb-2">
                 <a href="#luxury" className="nav-link p-0 ">
