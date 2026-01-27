@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Caraousell = () => {
+const Carousel_Component = () => {
   return (
     <Carousel>
       <Carousel.Item>
@@ -69,7 +69,7 @@ const Caraousell = () => {
   );
 };
 
-export default Caraousell;
+export default Carousel_Component;
 // import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
