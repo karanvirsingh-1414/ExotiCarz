@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm --prefix CarRental install && npm --prefix CarRental run build",
+  "outputDirectory": "CarRental/dist",
+  "installCommand": "npm --prefix CarRental install"
+}
