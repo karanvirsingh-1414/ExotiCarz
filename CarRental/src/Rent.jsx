@@ -7,8 +7,6 @@ import Collections from './components/Collections';
 import Footer from './components/Footer';
 
 
-
-
 function Rent() {
  
   return (
@@ -23,5 +21,3 @@ function Rent() {
 }
 
 export default Rent
-
-   
