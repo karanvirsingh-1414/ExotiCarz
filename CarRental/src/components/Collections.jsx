@@ -51,7 +51,7 @@ const TogglerSwitch = () => {
                   technology
                 </p>
                 <div className="checkkar">
-                  <Link to="/">
+                  <Link to="/cars/mercedes-gls">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
@@ -79,7 +79,7 @@ const TogglerSwitch = () => {
                   driver's machine.
                 </p>
                 <div className="checkkar">
-                  <Link to="/">
+                  <Link to="/cars/audi-rs8">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
@@ -102,7 +102,7 @@ const TogglerSwitch = () => {
                   advanced technology.
                 </p>
                 <div className="checkkar">
-                  <Link to="/">
+                  <Link to="/cars/bmw-f30">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
@@ -129,9 +129,11 @@ const TogglerSwitch = () => {
                   and race-inspired handling
                 </p>
                 <div className="checkkar">
-                  <button className="button-50" role="button">
-                    Check Out
-                  </button>
+                  <Link to="/cars/porsche-911">
+                    <button className="button-50" role="button">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,9 +156,11 @@ const TogglerSwitch = () => {
                   sophistication
                 </p>
                 <div className="checkkar">
-                  <button className="button-50" role="button">
-                    Check Out
-                  </button>
+                  <Link to="/cars/bentley-flying-spur">
+                    <button className="button-50" role="button">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -179,9 +183,11 @@ const TogglerSwitch = () => {
                   driving experience
                 </p>
                 <div className="checkkar">
-                  <button className="button-50" role="button">
-                    Check Out
-                  </button>
+                  <Link to="/cars/maserati-quattroporte">
+                    <button className="button-50" role="button">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -200,9 +206,11 @@ const TogglerSwitch = () => {
                   features.
                 </p>
                 <div className="checkkar">
-                  <button className="button-50" role="button">
-                    Check Out
-                  </button>
+                  <Link to="/cars/lexus-lx570">
+                    <button className="button-50" role="button">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -225,7 +233,7 @@ const TogglerSwitch = () => {
                   experience.
                 </p>
                 <div className="checkkar">
-                  <Link to="/">
+                  <Link to="/cars/dodge-challenger">
                     <button className="button-50" role="button">
                       Check Out
                     </button>
@@ -247,9 +255,11 @@ const TogglerSwitch = () => {
                   with commanding presence and effortless performance
                 </p>
                 <div className="checkkar">
-                  <button className="button-50" role="button">
-                    Check Out
-                  </button>
+                  <Link to="/cars/rolls-royce-cullinan">
+                    <button className="button-50" role="button">
+                      Check Out
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -292,7 +302,7 @@ const TogglerSwitch = () => {
                     features
                   </p>
                   <div className="checkkar">
-                    <Link to="/">
+                    <Link to="/cars/tesla-model-x">
                       <button className="button-50" role="button">
                         Check Out
                       </button>
@@ -319,9 +329,11 @@ const TogglerSwitch = () => {
                     technology.
                   </p>
                   <div className="checkkar">
-                    <button className="button-50" role="button">
-                      Check Out
-                    </button>
+                    <Link to="/cars/bmw-i8">
+                      <button className="button-50" role="button">
+                        Check Out
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -344,9 +356,11 @@ const TogglerSwitch = () => {
                     technology, making it both resilient and versatile.
                   </p>
                   <div className="checkkar">
-                    <button className="button-50" role="button">
-                      Check Out
-                    </button>
+                    <Link to="/cars/tesla-cybertruck">
+                      <button className="button-50" role="button">
+                        Check Out
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
