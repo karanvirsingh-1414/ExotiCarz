@@ -437,3 +437,25 @@ footer .row ul li a {
 .fontzy {
   font-family: "Orbitron", sans-serif;
 }
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center; /* 🔥 yahi main fix */
+  filter: brightness(60%);
+}
+
+.carousel-caption {
+  left: 50%;
+  transform: translateX(-50%);
+  right: auto;
+  text-align: center;
+}
+
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
