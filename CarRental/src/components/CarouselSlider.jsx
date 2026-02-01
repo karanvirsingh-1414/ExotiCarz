@@ -22,7 +22,7 @@ const CarouselSlider = () => {
           className="d-block w-100"
           src="images/mclaren_slide.webp"
           alt="Second slide"
-          style={{ objectFit: "cover", filter: "brightness(60%)", objectPosition: "50% 90%" }}
+          style={{ objectFit: "cover", filter: "brightness(60%)" }}
         />
         <Carousel.Caption>
           <h1 className="fontzy">You need Speed</h1>
@@ -34,7 +34,7 @@ const CarouselSlider = () => {
           className="d-block w-100"
           src="images/back_por.webp"
           alt="Third slide"
-          style={{ objectFit: "cover", filter: "brightness(60%)", objectPosition: "50% 90%" }}
+          style={{ objectFit: "cover", filter: "brightness(60%)" }}
         />
         <Carousel.Caption>
           <h1 className="fontzy">You need Class</h1>
@@ -58,7 +58,7 @@ const CarouselSlider = () => {
           className="d-block w-100"
           src="images/background2.png"
           alt="Fifth slide"
-          style={{ objectFit: "cover", filter: "brightness(100%)", objectPosition: "50% 90%" }}
+          style={{ objectFit: "cover", filter: "brightness(100%)" }}
         />
         <Carousel.Caption>
           <h1 className="fontzy">You need Exoticarz</h1>
