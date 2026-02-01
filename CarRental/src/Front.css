@@ -16,12 +16,13 @@ body {
 
 .heading4 {
     font-size: 30px;
-    
+
 }
 
 .navbar {
     background-color: rgb(0, 0, 0);
-    z-index: 9999; /* Ensure navbar stays on top */
+    z-index: 9999;
+    /* Ensure navbar stays on top */
 }
 
 .backimg .main_img {
@@ -41,7 +42,8 @@ body {
 
 #align li a {
     transition: 0.6s;
-    color: white; /* Ensuring white text */
+    color: white;
+    /* Ensuring white text */
 }
 
 #align li a:hover {
@@ -85,41 +87,54 @@ body {
 /* SIDEBAR STYLING */
 .sidebar {
     display: flex;
-    flex-direction: column; /* Aligns content vertically */
-    justify-content: space-between; /* Distributes the items to take full height */
-    height: 100vh; /* Full height of the viewport */
-    background-color: rgba(0, 0, 0, 0.7); /* Darker background for better readability */
+    flex-direction: column;
+    /* Aligns content vertically */
+    justify-content: space-between;
+    /* Distributes the items to take full height */
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Darker background for better readability */
     backdrop-filter: blur(10px);
-    z-index: 10000; /* Ensure it stays on top */
-    overflow-y: hidden; /* Disable scrolling */
+    z-index: 10000;
+    /* Ensure it stays on top */
+    overflow-y: hidden;
+    /* Disable scrolling */
 }
 
 /* Sidebar header (close button) */
 .offcanvas-header {
-    flex-shrink: 0; /* Prevent shrinking */
+    flex-shrink: 0;
+    /* Prevent shrinking */
 }
 
 /* Sidebar body content */
 .offcanvas-body {
-    flex-grow: 1; /* Make the body take the remaining space */
+    flex-grow: 1;
+    /* Make the body take the remaining space */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertically center the links */
-    align-items: center; /* Center horizontally */
+    justify-content: center;
+    /* Vertically center the links */
+    align-items: center;
+    /* Center horizontally */
 }
 
 /* Adjust links inside sidebar */
 #align {
-    width: 100%; /* Make the navigation take full width */
+    width: 100%;
+    /* Make the navigation take full width */
     list-style: none;
 }
 
 #align li {
-    margin: 1rem 0; /* Space between each menu item */
+    margin: 1rem 0;
+    /* Space between each menu item */
 }
 
 #align li a {
-    font-size: 1.5rem; /* Increase font size */
+    font-size: 1.5rem;
+    /* Increase font size */
     color: white;
     text-decoration: none;
     transition: 0.6s;
@@ -136,18 +151,21 @@ body {
 /* LOGIN / SIGNUP section */
 #log_sign {
     display: flex;
-    flex-direction: column; /* Default to column for smaller screens */
+    flex-direction: column;
+    /* Default to column for smaller screens */
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    gap: 1rem; /* Add some space between the buttons */
+    gap: 1rem;
+    /* Add some space between the buttons */
 }
 
 #log_sign a {
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
-    padding: 0.5rem 1rem; /* Increase padding to make buttons larger */
+    padding: 0.5rem 1rem;
+    /* Increase padding to make buttons larger */
     text-align: center;
 }
 
@@ -179,22 +197,32 @@ body {
 }
 
 /* Adjust for larger screens */
-@media (min-width: 992px) { /* Target screens greater than 992px (desktop) */
+@media (min-width: 992px) {
+
+    /* Target screens greater than 992px (desktop) */
     #log_sign {
-        flex-direction: row; /* Change to row layout */
-        justify-content: center; /* Center content */
-        align-items: center; /* Center vertically */
+        flex-direction: row;
+        /* Change to row layout */
+        justify-content: center;
+        /* Center content */
+        align-items: center;
+        /* Center vertically */
     }
 
     #log_sign a {
-        padding: 0.5rem 2rem; /* Increase horizontal padding for larger buttons */
-        margin: 0 0.5rem; /* Space between buttons */
+        padding: 0.5rem 2rem;
+        /* Increase horizontal padding for larger buttons */
+        margin: 0 0.5rem;
+        /* Space between buttons */
     }
 
     #align {
-        flex-grow: 1; /* Make the links section grow */
-        display: flex; /* Use flexbox for the menu */
-        justify-content: center; /* Center align the menu items */
+        flex-grow: 1;
+        /* Make the links section grow */
+        display: flex;
+        /* Use flexbox for the menu */
+        justify-content: center;
+        /* Center align the menu items */
     }
 }
 
@@ -249,7 +277,7 @@ form div {
 }
 
 form button {
-    width:13rem;
+    width: 13rem;
     height: 2.4rem;
 }
 
@@ -262,21 +290,21 @@ form button {
 
 @media (max-width: 767px) {
     form button {
-        max-width: 10rem; 
+        max-width: 10rem;
         height: 2.2rem;
     }
 }
 
 @media (max-width: 575px) {
     form button {
-        max-width: 8rem; 
+        max-width: 8rem;
         height: 2.2rem;
     }
 }
 
 @media (max-width: 360px) {
     form button {
-        max-width: 6rem; 
+        max-width: 6rem;
         height: 2.2rem;
     }
 }
@@ -285,7 +313,8 @@ form button {
 .sidebar {
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
-    z-index: 1050;  /* so that when we scroll the side-bar remains on the top */
+    z-index: 1050;
+    /* so that when we scroll the side-bar remains on the top */
 }
 
 
@@ -314,24 +343,25 @@ form button {
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
-    z-index: 0; /* Keep the image in the background */
+    z-index: 0;
+    /* Keep the image in the background */
 }
 
 .booking-area div {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.booking-area input{
+.booking-area input {
     border: 2px solid black;
     color: black;
 }
 
-.booking-area select{
+.booking-area select {
     border: 2px solid black;
     color: black;
 }
 
-.booking-area button{
+.booking-area button {
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -340,7 +370,7 @@ form button {
 
 
 .booking-area button:hover {
-    background-color:#f94c4c;
+    background-color: #f94c4c;
     border: 2px solid black;
     transition: 0.5s;
     color: white;
@@ -360,13 +390,13 @@ form button {
     font-size: 1.5rem;
     padding: 1%;
     border-radius: 20px;
-    border: 2px solid #f94c4c ;
+    border: 2px solid #f94c4c;
     text-decoration: none;
     color: white;
     text-align: center;
     background-color: #f94c4c;
     transition: 0.4s;
-    
+
 }
 
 
@@ -391,15 +421,16 @@ form button {
     padding-top: 9.375rem;
 }
 
-.span1 {               /* Span for word "Exoticarz */
+.span1 {
+    /* Span for word "Exoticarz */
     color: #f94c4c;
 }
 
 
 .welcome img {
     border-radius: 5px;
-    transition:  0.5s ease, box-shadow 0.5s ease;
-    
+    transition: 0.5s ease, box-shadow 0.5s ease;
+
 }
 
 .welcome img:hover {
@@ -444,10 +475,10 @@ form button {
 }
 
 .service-icon img {
-    width: 3.5rem; 
-    height: auto; 
+    width: 3.5rem;
+    height: auto;
     mix-blend-mode: color-burn;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 
@@ -461,187 +492,187 @@ form button {
 .nav-link h5 {
     width: 100%;
     font-size: 1.8rem;
-  }
-  
-  .nav-link p {
-      width: 100%;
-      font-size: 1.2rem;
-    }
-  
-  .nav-item .nav-link h5 {
-      text-decoration: none;
-  }
-  
-  .nav-link p {
-      width: 100%;
-    }
-  
-  
-  /* .nav-item {
+}
+
+.nav-link p {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.nav-item .nav-link h5 {
+    text-decoration: none;
+}
+
+.nav-link p {
+    width: 100%;
+}
+
+
+/* .nav-item {
       width: 100%;
     } */
 
 
 
-    .service-menu-area ul li a {
-        display: block;
-        margin-bottom: 2.18rem;
-        
+.service-menu-area ul li a {
+    display: block;
+    margin-bottom: 2.18rem;
+
+}
+
+.service-menu-area ul li a .service-icon {
+    height: 5.6rem;
+    width: 5.6rem;
+    background-color: antiquewhite;
+    line-height: 5.6rem;
+    text-align: center;
+    border-radius: 100%;
+    float: left;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+.service-menu-area ul li a .service-icon:hover,
+.service-menu-area ul li a.active .service-icon {
+    background-color: rgb(249, 144, 6);
+    color: white;
+    box-shadow: 0.125rem rgb(35 30 31 / 40%);
+
+}
+
+
+
+
+
+.service-menu-area ul li a .service-icon:hover {
+    background-color: rgb(249, 144, 6);
+    border-radius: 100%;
+    border: 3px solid black;
+}
+
+/* Remove the white background from the active link */
+.nav-link.active {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+
+.service-menu-area {
+    background-color: transparent;
+}
+
+
+.service-menu-area ul li:nth-child(1) {
+    margin-left: -1rem;
+}
+
+.service-menu-area ul li:nth-child(2) {
+    margin-left: -2.93rem;
+}
+
+.service-menu-area ul li:nth-child(3) {
+    margin-left: -5.0rem;
+}
+
+.service-menu-area ul li:nth-child(4) {
+    margin-left: -7.00rem;
+}
+
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+
+.service-menu-area ul li a p,
+.service-menu-area ul li a h5 {
+    padding-left: 6.87rem;
+    display: block;
+    text-align: left;
+}
+
+.service-menu-area ul li a p span {
+    color: rgb(249, 144, 6);
+}
+
+
+.service-item-section .tab-content img {
+    width: 100%;
+}
+
+.service-menu-area ul li a {
+    margin-bottom: 0.81rem;
+    overflow: hidden;
+}
+
+.service-menu-area ul li:nth-child(1) {
+    margin-left: -4.43rem;
+}
+
+.service-menu-area ul li:nth-child(2) {
+    margin-left: -6.93rem;
+}
+
+.service-menu-area ul li:nth-child(3) {
+    margin-left: -9.37rem;
+}
+
+.service-menu-area ul li:nth-child(4) {
+    margin-left: -11.90rem;
+}
+
+.service-menu-area ul li a h5 {
+    margin-bottom: 0.37rem;
+}
+
+
+
+.service-menu-area {
+    padding: 1.5rem 0.5rem;
+}
+
+
+@media (max-width:991px) {
+    .service-menu-area ul li {
+        margin-left: unset !important;
     }
-    
-    .service-menu-area ul li a .service-icon {
-        height: 5.6rem;
-        width: 5.6rem;
-        background-color: antiquewhite;
-        line-height: 5.6rem;
-        text-align: center;
-        border-radius: 100%;
-        float: left;
-        transition: 0.4s ease-in-out;
-    
-    }
-    
-    
-    .service-menu-area ul li a .service-icon:hover,
-    .service-menu-area ul li a.active .service-icon {
-        background-color: rgb(249, 144, 6);
-        color: white;
-        box-shadow: 0.125rem rgb(35 30 31 / 40%);
-        
-    }
-    
-    
-    
-    
-    
-    .service-menu-area ul li a .service-icon:hover {
-        background-color:rgb(249, 144, 6);
-        border-radius: 100%;
-        border: 3px solid black;
-    }
-    
-    /* Remove the white background from the active link */
-    .nav-link.active {
-        background-color: transparent !important; 
-        border: none !important; 
-        box-shadow: none !important; 
-    }
-    
-    
-    
-    .service-menu-area  {
-        background-color: transparent;
-    } 
-    
-    
-    .service-menu-area ul li:nth-child(1) {
-        margin-left: -1rem;
-    }
-    
-    .service-menu-area ul li:nth-child(2) {
-        margin-left: -2.93rem;
-    }
-    
-    .service-menu-area ul li:nth-child(3) {
-        margin-left: -5.0rem;
-    }
-    
-    .service-menu-area ul li:nth-child(4) {
-        margin-left: -7.00rem;
+}
+
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .tab-pane img {
+        width: 90%;
+        height: 400px;
     }
 
 
-    .nav-tabs .nav-link {
-        border: none;
-    }
-    
-    
-    .service-menu-area ul li a p,
-    .service-menu-area ul li a h5{
-        padding-left: 6.87rem;
-        display: block;
-        text-align: left;
-    }
-    
-    .service-menu-area ul li a p span {
-        color:rgb(249, 144, 6);
+    .nav-link h5 {
+        font-size: 1rem;
     }
 
 
-    .service-item-section .tab-content img {
-        width: 100%;
-    }
-    
-    .service-menu-area ul li a {
-        margin-bottom: 0.81rem;
-        overflow: hidden;
-    }
-    
-    .service-menu-area ul li:nth-child(1) {
-        margin-left: -4.43rem;
-    }
-    
-    .service-menu-area ul li:nth-child(2) {
-        margin-left: -6.93rem;
-    }
-    
-    .service-menu-area ul li:nth-child(3) {
-        margin-left: -9.37rem;
-    }
-    
-    .service-menu-area ul li:nth-child(4) {
-        margin-left: -11.90rem;
-    }
-    
-    .service-menu-area ul li a h5{
-        margin-bottom: 0.37rem;
-    }
-    
-    
-    
-    .service-menu-area {
-        padding: 1.5rem 0.5rem;
+    .nav-link p {
+        font-size: 0.9rem;
     }
 
 
-    @media (max-width:991px) {
-        .service-menu-area ul li {
-            margin-left: unset !important;
-        }
+    .service-item-section {
+        margin-bottom: 1rem;
+
     }
 
-
-    @media (min-width: 993px) and (max-width: 1199px) {
-        .tab-pane img {
-            width: 90%;
-            height: 400px;
-        }
-    
-    
-        .nav-link h5 {
-            font-size: 1rem;
-        }
-    
-       
-        .nav-link p {
-            font-size: 0.9rem; 
-        }
-
-
-        .service-item-section {
-            margin-bottom: 1rem; 
-        
-        }
-    
-        .service-menu-area ul li a .service-icon:nth-child(1) {
-             margin-top: 0%;
-        }
+    .service-menu-area ul li a .service-icon:nth-child(1) {
+        margin-top: 0%;
     }
+}
 
 
-    .service-menu-area .nav {
-        border: none;
-    }
+.service-menu-area .nav {
+    border: none;
+}
 
 /* SERVICE SECTION END */
 
@@ -657,7 +688,7 @@ form button {
 
 
 .back_section .container-fluid {
-    background: url("./images/mustang.jpeg") ;
+    background: url("./images/mustang.jpeg");
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -666,7 +697,7 @@ form button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -686,7 +717,7 @@ form button {
 .back_content p {
     padding: 0px 120px;
     font-size: 60px;
-    color:white;
+    color: white;
 }
 
 
@@ -723,11 +754,11 @@ form button {
 .back_content p {
     font-size: 25px;
     margin-top: 3%;
-    
+
 }
 
 .back_logo .exp-logo {
-    transition:  0.6s ease;
+    transition: 0.6s ease;
     color: white;
     font-size: 20px;
     background-color: transparent;
@@ -751,7 +782,7 @@ form button {
 .blur_head {
     background-color: transparent;
     transition: 0.5s;
-    
+
 }
 
 .blur_head:hover {
@@ -785,20 +816,20 @@ form button {
 
 
 
- /* TEAM SECTION START */
- .team_section {
+/* TEAM SECTION START */
+.team_section {
     margin-top: 20%;
 }
 
-.card img {
+.team_section .card img {
     width: 600px;
     height: 500px;
 }
 
 
 .team_section .card {
-position: relative;
-overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .team_section .team-info {
@@ -819,14 +850,14 @@ overflow: hidden;
 
 .team_section .team-info h5,
 .team_section .team-info p {
-color: white;
+    color: white;
 }
 
 .team_section .team-info .social-network {
     transition: all 0.3s ease-in-out;
     padding: 1.25rem;
     margin: 1.25rem -1.25rem -1.25rem;
-    background-color:rgb(255, 170, 0);
+    background-color: rgb(255, 170, 0);
     list-style: none;
     display: flex;
     align-items: center;
@@ -867,20 +898,20 @@ color: white;
 }
 
 
-.picks_section{
+.picks_section {
     margin-top: 10%;
 }
 
 
 
 .car_info .about {
-    font-size:18px;
+    font-size: 18px;
 }
 
 
 .car_info .main-btn {
     text-decoration: none;
-    background-color:#f94c4c;
+    background-color: #f94c4c;
     width: 100%;
     height: 40px;
     display: flex;
@@ -932,7 +963,7 @@ color: white;
 
 
 .card_picks .card:hover a {
-    background-color:rgb(254, 175, 3);
+    background-color: rgb(254, 175, 3);
     color: black;
 }
 
@@ -946,7 +977,7 @@ color: white;
 
 
 .back_section .container-fluid {
-    background: url("./images/mustang.jpeg") ;
+    background: url("./images/mustang.jpeg");
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -955,7 +986,7 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -969,7 +1000,7 @@ color: white;
 
 .back_content p {
     padding: 0px 80px;
-    
+
 }
 
 
@@ -1006,11 +1037,11 @@ color: white;
 .back_content p {
     font-size: 25px;
     margin-top: 3%;
-    
+
 }
 
 .back_logo .exp-logo {
-    transition:  0.6s ease;
+    transition: 0.6s ease;
     color: white;
     font-size: 20px;
     background-color: transparent;
@@ -1018,7 +1049,7 @@ color: white;
 
 .back_logo .exp-logo:hover {
     transition: 0.5s;
-    color:rgb(255, 170, 0);
+    color: rgb(255, 170, 0);
     font-size: 25px;
 }
 
@@ -1034,7 +1065,7 @@ color: white;
 .blur_head {
     background-color: transparent;
     transition: 0.5s;
-    
+
 }
 
 .blur_head:hover {
@@ -1065,7 +1096,7 @@ color: white;
     color: white;
     font-size: 25px;
     border-radius: 10px;
-    border: 0px ;
+    border: 0px;
 }
 
 
@@ -1084,7 +1115,7 @@ footer .row ul li a {
 }
 
 
-.back_anchor  {
+.back_anchor {
     text-decoration: none;
     background-color: transparent;
 }
@@ -1136,7 +1167,8 @@ footer .row ul li a {
     font-weight: bold;
     position: absolute;
     bottom: 100px;
-    left: 50%; /* Center on x-axis */
+    left: 50%;
+    /* Center on x-axis */
     transform: translateX(-50%);
     background-color: transparent;
     opacity: 0;
@@ -1154,7 +1186,7 @@ footer .row ul li a {
     bottom: 40px;
     left: 50%;
     font-size: 20px;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     opacity: 0;
     transition: 1s ease-in;
     color: white;
@@ -1188,28 +1220,30 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    transition: filter 0.3s ease; /* Smooth transition for blur effect */
-  }
-  
-  .container bla-bla {
+    transition: filter 0.3s ease;
+    /* Smooth transition for blur effect */
+}
+
+.container bla-bla {
     width: 100%;
     height: 100vh;
     background: #3c5077;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .modal_head, .modal_para {
+}
+
+.modal_head,
+.modal_para {
     background-color: transparent;
     color: black;
-  }
-  
-  .modal_image {
+}
+
+.modal_image {
     width: 300px;
-  }
-  
-  .btnn {
+}
+
+.btnn {
     padding: 10px 60px;
     background: #fff;
     border: 0;
@@ -1218,43 +1252,47 @@ body {
     font-size: 15px;
     font-weight: 500;
     border-radius: 30px;
-  }
-  
-  .popup {
+}
+
+.popup {
     width: 400px;
     background: #fff;
     border-radius: 6px;
     position: fixed;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0); /* Hidden initially */
+    transform: translate(-50%, -50%) scale(0);
+    /* Hidden initially */
     text-align: center;
     padding: 0 30px 30px;
     transition: transform 0.4s ease, top 0.4s ease;
     visibility: hidden;
-    z-index: 10; /* Ensure the popup stays on top */
-  }
-  
-  .open-popup {
+    z-index: 10;
+    /* Ensure the popup stays on top */
+}
+
+.open-popup {
     visibility: visible;
-    transform: translate(-50%, -50%) scale(1); /* Pop up to normal size */
-    top: 20%; /* Adjust this to center or near the top */
-  }
-  
-  .popup img {
+    transform: translate(-50%, -50%) scale(1);
+    /* Pop up to normal size */
+    top: 20%;
+    /* Adjust this to center or near the top */
+}
+
+.popup img {
     width: 160px;
     margin-top: -75px;
     border-radius: 50%;
     background-color: transparent;
-  }
-  
-  .popup h2 {
+}
+
+.popup h2 {
     font-size: 38px;
     font-weight: 500;
     margin: 30px 0 10px;
-  }
-  
-  .popup button {
+}
+
+.popup button {
     width: 100%;
     margin-top: 50px;
     padding: 10px 0;
@@ -1266,29 +1304,32 @@ body {
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     background-color: blue;
-  }
-  
-  /* New CSS for the blur effect */
-  .blurred {
-    filter: blur(8px); /* Apply the blur filter to the whole page */
-  }
-  
-  /* Optional: Add a background overlay to dim the page when the popup is active */
-  .overlay {
+}
+
+/* New CSS for the blur effect */
+.blurred {
+    filter: blur(8px);
+    /* Apply the blur filter to the whole page */
+}
+
+/* Optional: Add a background overlay to dim the page when the popup is active */
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-    z-index: 5; /* Behind the popup but on top of the rest of the page */
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    z-index: 5;
+    /* Behind the popup but on top of the rest of the page */
     visibility: hidden;
-  }
-  
-  .overlay.active {
+}
+
+.overlay.active {
     visibility: visible;
-  }
+}
