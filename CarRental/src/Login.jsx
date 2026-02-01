@@ -21,12 +21,12 @@ const Login = () => {
     return (
         <div className="login-page">
             {/* LOGO */}
-            <img src="./images/logo-removebg.png" width="20%" className="top_logo" alt="Logo" />
+            <img src="/images/logo-removebg.png" width="20%" className="top_logo" alt="Logo" />
 
             {/* HERO VIDEO */}
             <div className="hero">
                 <video autoPlay loop muted playsInline className="back-video">
-                    <source src="./images/ok.mp4" />
+                    <source src="/images/ok.mp4" />
                 </video>
             </div>
 

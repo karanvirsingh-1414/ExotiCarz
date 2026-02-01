@@ -10,7 +10,7 @@ const Header = () => {
           <div className="container">
             {/* Exoticarz Logo */}
             <img
-              src="./images/logo-removebg.png"
+              src="/images/logo-removebg.png"
               width="20%"
               className="navbar-brand fs-4"
             />
